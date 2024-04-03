@@ -14,3 +14,12 @@ basemodel：Bi-LSTM
 2.将1的序列进入特征提取模块+embedding layer
 3.将2的结果输入bi-lstm（self attention的bi-lstm+cnn）同时提取前向后向的依赖关系、全局特征、局部特征
 4.将3的结果输入一个head（基于mlp）来预测：切割位点、sp类别
+
+对lstm加attention：
+1.lstm输出分割为两部分后相加得到h
+2.对h计算注意力权重atten_w
+3.将h映射到m
+4.对atten_w转换为softmax_w
+5.h与softmax_w相乘得到context，提取了上下文依赖信息
+6.context加权平均得到result
+7.result加一个dropout层
