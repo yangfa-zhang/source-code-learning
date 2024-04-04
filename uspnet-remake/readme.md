@@ -44,3 +44,9 @@ basemodel：Bi-LSTM
 - logits（模型输出的未归一化的预测值；logits是模型对每个类别的预测强度，如果模型对预测准确有信心，logits就越高）
 - 分类器的最后一层加入归一化线性层，归一化后得到每一个类别的权重向量，agent vector就是这些权重向量，
 - 代理向量捕捉了类别的本质特征（因此具有更好的泛化能力）
+
+## msa transformer的添加
+- 对每一个氨基酸序列使用searching updated UniClust30 with HHblits方法生成msa数据
+- msa数据直接输入msa transformer预训练模型
+- msa transformer的生成embedding用于输入uspnet
+- msa transformer能够学习到序列之间的相似性，相似性意味着有相似的结构和功能
