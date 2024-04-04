@@ -13,7 +13,7 @@ Net文件夹中：
 ## 模型流程
 basemodel：Bi-LSTM  
 流程：  
-1. 氨基酸序列->Lx20矩阵（L为序列长度）
+1. 氨基酸序列->Lx20矩阵（L为序列长度）（生成msa，然后再输入msa transformer）
 2. 将1的序列进入特征提取模块+embedding layer
 3. 将2的结果输入bi-lstm（self attention的bi-lstm+cnn）同时提取前向后向的依赖关系、全局特征、局部特征
 4. 将3的结果输入一个head（基于mlp）来预测：切割位点、sp类别
