@@ -36,6 +36,7 @@ basemodel：Bi-LSTM
 - reweighting：为每个类别分配权重
 
 ### ldam loss介绍：
+- 参考：https://zhuanlan.zhihu.com/p/308298563
 - margin（第i类样本到决策边界的最小值）
 - 最佳的margin rj=C除以 nj的1/4次方  C是未定超参数（这个公式有数学推导）
 
