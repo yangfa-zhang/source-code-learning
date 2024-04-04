@@ -23,3 +23,20 @@ basemodel：Bi-LSTM
 5.h与softmax_w相乘得到context，提取了上下文依赖信息
 6.context加权平均得到result
 7.result加一个dropout层
+
+data imbalance：
+训练数据中不同类别的样本数量差异
+非信号肽序列（不含sp的氨基酸序列），包含少数类别的sp的序列数量远小于非信号肽序列
+
+解决data imbalance的方法包括re sampling和re weighting
+resampling：减少数量较多的类别or复制或生成的方式增加数量较少的类别的数据量
+reweighting：为每个类别分配权重
+
+ldam loss介绍：
+margin（第i类样本到决策边界的最小值）
+最佳的margin rj=C除以 nj的1/4次方  C是未定超参数（这个公式有数学推导）
+
+uspnet的创新点：
+logits（模型输出的未归一化的预测值；logits是模型对每个类别的预测强度，如果模型对预测准确有信心，logits就越高）
+分类器的最后一层加入归一化线性层，归一化后得到每一个类别的权重向量，agent vector就是这些权重向量，
+代理向量捕捉了类别的本质特征（因此具有更好的泛化能力）
