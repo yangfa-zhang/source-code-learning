@@ -1,5 +1,7 @@
 # 源码学习记录
 [how to write markdown code](https://blog.csdn.net/qq_36528377/article/details/127804828)
+## classical code
++ [resnet](https://github.com/yangfa-zhang/source-code-learning/blob/main/resnet.py)
 ## bluecast(a light-weighted ml library)
 + [how to use bluecast](https://github.com/yangfa-zhang/source-code-learning/blob/main/multi-class%20prediction%20of%20obesity%20risk/README.md)
 ## computer vision
