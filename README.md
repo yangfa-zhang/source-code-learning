@@ -2,7 +2,7 @@
 [how to write markdown code](https://blog.csdn.net/qq_36528377/article/details/127804828)
 ## classical code
 + [resnet](https://github.com/yangfa-zhang/source-code-learning/blob/main/resnet.py)
-## bluecast(a light-weighte and fast auto-ml library)
+## bluecast(a light-weight and fast auto-ml library)
 + [how to use bluecast](https://github.com/yangfa-zhang/source-code-learning/blob/main/multi-class%20prediction%20of%20obesity%20risk/README.md)
 ## computer vision
 + [detection using transformer(detr)](https://github.com/yangfa-zhang/source-code-learning/blob/main/detr.md)
