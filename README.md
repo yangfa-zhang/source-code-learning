@@ -1,4 +1,4 @@
-# 计算机视觉领域源码学习记录
+# 源码学习记录
 
 ## diffusion model
 symbolic regression: 用一个数学公式来描述数据
