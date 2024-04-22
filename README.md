@@ -4,6 +4,7 @@
 + [resnet](https://github.com/yangfa-zhang/source-code-learning/blob/main/resnet.py)
 + [RNA starter](https://github.com/yangfa-zhang/source-code-learning/blob/main/RNA%20starter.py)
 + [USPNet](https://github.com/yangfa-zhang/source-code-learning/blob/main/uspnet-remake/Net/LSTM.py)
++ [BLSTM module by hand](https://github.com/yangfa-zhang/source-code-learning/blob/main/BLSTM%20module%20by%20hand.ipynb)
 ## bluecast(a light-weight and fast auto-ml library)
 + [how to use bluecast](https://github.com/yangfa-zhang/source-code-learning/blob/main/multi-class%20prediction%20of%20obesity%20risk/README.md)
 ## computer vision
