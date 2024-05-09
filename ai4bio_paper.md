@@ -19,6 +19,9 @@ basemodel：Bi-LSTM
 
 
 ## Msa Transformer
+#### task
+- input: multiple sequence alignment data
+- output: embedding matrix as feature representation
 #### motivation  
 #### technical contribution
 1. 行、列注意力操作
@@ -30,13 +33,26 @@ basemodel：Bi-LSTM
 - 使用无标注的数据进行训练
 3. 跨越多个不同的蛋白质家族进行训练
 - 使训练结果在样本外同样表现良好
-#### pipeline
+#### model
 
 
 ## ProtENN
+#### task 
+- input: Pfam数据库中的未对比氨基酸序列数据 
+- output: 此序列所属的Pfam家族
 #### motivation  
 #### technical contribution
+#### model
+- ResNet、CNN
+- 集成多个ProtCNN
 
 ## RNA-FM
 #### motivation  
 #### technical contribution
+#### task
+- input：RNA的核苷酸序列  
+- output：包含RNA结构和功能信息的L*640的embedding matrix
+#### model
+- 12 transformer layers(multi-head attention+fnn)
+- 各个模块使用残差连接
+- masked language objective
