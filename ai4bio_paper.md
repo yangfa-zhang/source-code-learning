@@ -56,3 +56,19 @@ basemodel：Bi-LSTM
 - 12 transformer layers(multi-head attention+fnn)
 - 各个模块使用残差连接
 - masked language objective
+
+## ProGen
+#### motivation  
+#### technical contribution
+#### task
+- input：  
+- output：
+#### model
+
+## NetGPI
+#### motivation  
+#### technical contribution
+#### task
+- input：  
+- output：
+#### model
