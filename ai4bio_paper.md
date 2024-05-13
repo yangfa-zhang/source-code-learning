@@ -42,6 +42,7 @@ basemodel：Bi-LSTM
 - output: 此序列所属的Pfam家族
 #### motivation  
 #### technical contribution
+- protCNN的输出的amino acid matrix embedding的相关性系数热力图与BLOSUM62 matrix比较，表示protCNN学习到了信息
 #### model
 - ResNet、CNN
 - 集成多个ProtCNN
