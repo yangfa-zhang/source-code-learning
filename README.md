@@ -1,5 +1,7 @@
 # 源码学习记录
 [how to write markdown code](https://blog.csdn.net/qq_36528377/article/details/127804828)
+## e2e tabular data pipelines
+[for_tabular_data.ipynb](https://github.com/yangfa-zhang/source-code-learning/blob/main/for_tabular_data.ipynb)
 ## classical code
 + [resnet](https://github.com/yangfa-zhang/source-code-learning/blob/main/resnet.py)
 + [RNA starter](https://github.com/yangfa-zhang/source-code-learning/blob/main/RNA%20starter.py)
