@@ -3,6 +3,11 @@
 ## e2e tabular data pipelines
 an end-to-end pipeline for fitting tabular data with LightGBM, Random Forest, XGBoost, and CatBoost using cross-validation: 
 [for_tabular_data.ipynb](https://github.com/yangfa-zhang/source-code-learning/blob/main/for_tabular_data.ipynb)
+## pytorch pipelines
+### for tabular data 
+- [dl for tabular data](https://github.com/yangfa-zhang/source-code-learning/blob/main/pytorch_pipelines/deep_learning_pipeline.ipynb) 
+- [dl for tabular data + batch size](https://github.com/yangfa-zhang/source-code-learning/blob/main/pytorch_pipelines/deep_learning_pipeline_with_batch_size.ipynb)
+### for sequence data 
 ## classical code
 + [resnet](https://github.com/yangfa-zhang/source-code-learning/blob/main/resnet.py)
 + [RNA starter](https://github.com/yangfa-zhang/source-code-learning/blob/main/RNA%20starter.py)
