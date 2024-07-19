@@ -1,6 +1,6 @@
 # source code learning
 [how to write markdown code](https://blog.csdn.net/qq_36528377/article/details/127804828)
-## e2e tabular data pipelines
+## e2e tabular data pipelines for classification task
 an end-to-end pipeline for fitting tabular data with LightGBM, Random Forest, XGBoost, and CatBoost using cross-validation: 
 [for_tabular_data.ipynb](https://github.com/yangfa-zhang/source-code-learning/blob/main/for_tabular_data.ipynb)
 ## pytorch pipelines
